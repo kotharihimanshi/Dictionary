@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+
+body{
+    background-color: #b9398c;
+}
+
+.container{
+    background-color: #ffffff;
+    width: 90vmin;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 80px 50px;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(38,33,61,0.2);
+}
+
+.searchbox{
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+}
+
+.searchbox input{
+    height: 30px;
+    border: none;
+    padding: 5px;
+    border-bottom: 3px solid #ae9cff;
+    outline: none;
+    width: 70%;
+    background-color: bisque;
+    color: black;
+    font-size: 16px;
+}
+
+.searchbox button{
+    padding: 5px 0;
+    border: none;
+    outline: none;
+    background-color: #b9398c ;
+    width: 20%;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.result{
+    position: relative;
+}
+
+.result h3{
+    font-size: 40px;
+    color: brown;
+}
+
+.result .word{
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+}
+
+.result button{
+    background-color: transparent;
+    width: 10%;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    color: #e4b373;
+}
+
+.result .dets{
+    display: flex;
+    color: dimgrey;
+    gap: 10px;
+    font-size: 14px;
+    margin: 5px 0 20px 0;
+}
+
+.meaning{
+    color:indianred;
+}
+
+.example{
+    color: indianred;
+    font-style: italic;
+    border-left: 5px solid #b9398c;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+
+.error{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.syn{
+    color: indianred;
+    margin-top: 30px;
+    font-size: 14px;
+    font-style: oblique;
+}
+
+h2{
+    font-size: 50px;
+    font-family: georgia;
+    font-style: bold;
+    color:blanchedalmond;
+    text-align: center;
+    margin-top: 50px;
+    text-decoration:underline;
+}
